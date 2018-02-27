@@ -23,7 +23,6 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="15dp"
                 app:srcCompat="@drawable/logosos" />
-
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
@@ -34,7 +33,6 @@
                 android:text="Todo Protegido SOS"
                 android:textSize="30sp"
                 android:textStyle="bold" />
-
             <EditText
                 android:id="@+id/editText"
                 android:layout_width="220dp"
@@ -42,14 +40,12 @@
                 android:layout_below="@+id/textView"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="30dp"
-
                 android:background="@drawable/radiuscorner"
                 android:drawableLeft="@drawable/ic_email_black_24dp"
                 android:drawablePadding="8dp"
                 android:ems="10"
                 android:hint="Correo Electronico"
-                android:inputType="textPersonName" />
-
+                android:inputType="textEmailAddress" />
             <EditText
                 android:id="@+id/editText2"
                 android:layout_width="220dp"
@@ -63,10 +59,8 @@
                 android:ems="10"
                 android:hint="Contraseña"
                 android:inputType="textPassword" />
-
             <Button
                 android:id="@+id/button"
-
                 android:layout_width="270dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/editText2"
@@ -75,8 +69,6 @@
                 android:background="@drawable/botonshape"
                 android:text="Iniciar sesión "
                 android:textColor="@android:color/white" />
-
-
             <View
                 android:id="@+id/view"
                 android:layout_width="fill_parent"
@@ -85,17 +77,14 @@
                 android:layout_below="@+id/button"
                 android:layout_marginTop="30dp"
                 android:background="#03A9F4" />
-
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
                 android:layout_below="@+id/view"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="15dp"
                 android:text="¿No tienes una cuenta?" />
-
             <Button
                 android:id="@+id/btnregistrar"
                 style="@style/Widget.AppCompat.Button.Borderless"
@@ -103,15 +92,10 @@
                 android:layout_height="wrap_content"
                 android:layout_alignStart="@+id/button"
                 android:layout_below="@+id/textView2"
-
                 android:layout_marginTop="10dp"
-
-                android:text="Registrate"
+                android:text="@string/register"
                 android:textColor="#03A9F4" />
-
         </RelativeLayout>
-
-
     </ScrollView>
 
 
