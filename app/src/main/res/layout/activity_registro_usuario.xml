@@ -135,7 +135,7 @@
                 android:layout_marginTop="20dp"
                 android:background="#03A9F4" />
             <Button
-                android:id="@+id/button"
+                android:id="@+id/buttonregi"
                 android:layout_width="270dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view"
